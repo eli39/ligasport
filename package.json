@@ -1,0 +1,19 @@
+{
+  "name": "ligasport",
+  "description": "Deployment",
+  "scripts": {
+    "build:client": "cd client && npm run build",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "heroku-postbuild": "echo This runs afterwards.",
+    "start": "cd server && npm install && npm run product",
+    "test:server": "cd server && npm run test",
+    "test:server:coverage": "cd server && npm run test:coverage"
+  },
+  "engines": {
+    "node": "10.14.2",
+    "npm": "6.4.1"
+  },
+  "author": "Eli 'Álvarez",
+  "license": "MIT"
+}
